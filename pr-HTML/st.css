@@ -112,13 +112,23 @@ header {
     display: none;
 }
 .dropdown-content a{
+    background: white;
     padding: 8px 12px;
     display: block;
-    
+}
+.dropdown-content a:visited{
+    color: black;
+}.dropdown-content a:hover{
+     color: black;
+ }
+.dropdown-content a:checked{
+    color: black;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
+    height: 500px;
+
 }
 
 

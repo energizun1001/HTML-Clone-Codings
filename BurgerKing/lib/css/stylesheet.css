@@ -51,7 +51,12 @@ table {
     border-spacing: 0;
 }
 
-.head-wrab{
+body{
+    padding-top: 112.719px;
+    background:#f2ebe6;
+
+}
+.head-wrab {
     position: fixed;
     top: 0;
     left: 0;
@@ -62,34 +67,140 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px #999
+    box-shadow: 0 2px 2px #999;
+    padding-left: 25%;
+    padding-right: 15%;
 }
 
-.logo{
+.logo {
     display: flex;
     float: left;
-
-
+    padding: 2% 0 2% 0;
 }
 
-.dropdown{
+
+.dropdown {
     display: flex;
+    cursor: pointer;
+    padding-right: 30%;
 }
 
-.dropdown li{
+.dropdown .dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background: white;
+}
+
+.dropdown-content a {
+    padding: 8px 12px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown li {
     display: flex;
     padding: 15px;
     font-size: 25px;
 }
 
-.dropdown-menu ul{
-    display: none;
-}
-
 .delivery-direct{
-    width: 20%;
-    display: inline-flex;
+    display: flex;
+    background: firebrick;
+    color: white;
+    padding: 2px 4px;
+    line-height: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 25px;
+    margin-left: 20px;
 }
 
+.delivery-direct a{
+    color: white;
+    text-decoration: none;
+}
 
+main{
+    display: flex;
+    width: 100%;
+}
+.slide{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+iframe{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.link{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgb(104, 58, 47);
+    width: 1440px;
+    height: 160px;
+}
+.out-link{
+    display: flex;
+    width: 100%;
+    padding: 2% 10%;
+}
+
+.out-link li{
+    padding: 3px 60px;
+    display: flex;
+}
+
+.out-link a:hover{
+    cursor: pointer;
+}
+
+.use-way{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.store-location{
+    display: block;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 600px;
+}
+.store-location-wrap{
+    padding-top: 50px;
+}
+
+.store-location h2{
+    width: 80%;
+    padding-left: 10%;
+    margin-right: 10%;
+    display: block;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.store-location p{
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
