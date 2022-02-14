@@ -1,0 +1,307 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 출처 https://code-hyoon.tistory.com/13 */
+
+/* 시작 */
+* {
+    margin: 0 auto;
+}
+
+.head a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.head a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.head a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+
+.head {
+    background: #027acd;
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.head h1 {
+    color: white;
+    font-size: 40px;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.head nav {
+    width: 80%;
+    height: auto;
+    padding: 8px 12px;
+}
+
+.head nav ul {
+    color: white;
+    margin: 0 40px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head nav ul li {
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    cursor: pointer;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+}
+.dropdown-content a{
+    padding: 8px 12px;
+    display: block;
+    
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+
+nav i {
+    padding-left: 5px;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: 0 10%;
+    overflow: hidden;
+}
+
+main img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+section {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.tab_content {
+    display: none;
+    padding: 20px 0 0;
+    border-top: 1px solid #ddd;
+    amxheight: 100px;
+}
+
+.notice_content li {
+    margin-left: 3%;
+    list-style-type: initial;
+    padding: 10px;
+}
+
+.notice_content li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.notice_content li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.notice_content li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.gallery_content li {
+    overflow: hidden;
+    display: inline-flex;
+
+}
+
+.gallery_content img {
+    float: left;
+    width: 200px;
+    max-height: 100px;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 1px solid transparent;
+}
+
+label:hover {
+    color: #2e9cdf;
+    cursor: pointer;
+}
+
+input:checked + label {
+    color: #c84b4b;
+    background: #f3f3f3;
+
+}
+
+#notice:checked ~ #notice_content,
+#gallery:checked ~ #gallery_content {
+    display: block;
+}
+
+aside {
+    display: flex;
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 3%;
+    height: 300px;
+}
+
+.icon_item li {
+    width: 30%;
+    display: inline-flex;
+}
+
+.icon img {
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 120px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.icon_item p {
+
+    left: 40px;
+    width: 30%;
+    text-align: center;
+    display: inline-flex;
+}
+
+footer{
+
+}
+
+.wrap{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid black;
+    padding-top: 1%;
+}
+
+.footermenu{
+    width: 70%;
+    float: left;
+    display: flex;
+}
+
+.footermenu li {
+    display: flex;
+    margin-left: 2%;
+}
+
+.footermenu li:nth-child(-n+2){
+    height: 50%;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.link{
+    width: 30%;
+    margin-left: 60%;
+    display: flex;
+    float: right;
+}
+
+.link li{
+    display: flex;
+    padding-left: 25px;
+}
+
+.company{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.company p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 1%;
+}
