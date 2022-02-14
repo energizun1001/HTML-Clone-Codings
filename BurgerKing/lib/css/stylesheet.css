@@ -54,7 +54,6 @@ table {
 body{
     padding-top: 112.719px;
     background:#f2ebe6;
-
 }
 .head-wrab {
     position: fixed;
@@ -172,35 +171,101 @@ iframe{
 
 .use-way{
     display: flex;
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.use-app{
+    display: flex;
+    float: left;
+}
+.use-delivery{
+    display: flex;
+    float: left;
 }
 
 .store-location{
     display: block;
-    width: 100%;
+    width: 1440px;
     margin-left: 10%;
     margin-right: 10%;
     height: 600px;
-}
-.store-location-wrap{
-    padding-top: 50px;
+    background: white;
 }
 
 .store-location h2{
-    width: 80%;
-    padding-left: 10%;
-    margin-right: 10%;
-    display: block;
-    font-size: 55px;
-    font-weight: 700;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding-top: 40px;
+    font-size: 55px;
+    font-weight: 600;
 }
 
 .store-location p{
-    display: block;
-    font-weight: 400;
-    font-size: 30px;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.store-location a{
+    display: block;
+    text-align: center;
+    padding: 8px 12px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 25px;
+    width: 5%;
+    background: firebrick;
+    text-decoration: none;
+    color: white;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 12%;
+
+
+}
+.category li{
+    display: block;
+    padding: 8px 12px;
+    width: 150px;
+}
+
+.menu-item span{
+    font-size: 20px;
+    width: 130px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+.menu-item strong{
+    display: block;
+    margin-top: 8px;
+    font-size: 20px;
+    color: firebrick;
+    width: 130px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.category-delivery{
+    background-image: url('/lib/img/bike.png');
+    color: black;
 }
