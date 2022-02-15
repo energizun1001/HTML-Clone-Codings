@@ -1,4 +1,6 @@
 <!doctype html>
+<!--해결 못한 부분
+슬라이드 처리 -->
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +18,6 @@
 <body>
 
 <header><!--로고, 로그인 영역-->
-
     <div class="header-wrap">
         <div class="logo">
             <a href="withlotto.html"><img src="lib/img/withLotto-Logo.png" alt="로고" width="190" height="65"></a>
@@ -43,7 +44,7 @@
 </nav>
 <div class="slide-wrap">
     <section class="slide-left"><!--메인 슬라이드 왼쪽 영역-->
-        <header>로또 6/45</header>
+        <header><h2>로또 6/45</h2></header>
         <a class="conunt" href="#">1002회 당첨결과</a>
         <span class="this-day">2022-02-12</span>
         <ul class="lotto-number">
@@ -61,13 +62,72 @@
             <dd>247억원<span>(8명/31억)</span></dd>
         </div>
         <ul class="lotto-desk">
-            <li class="desk-item-gray"><a href="#">회차별 당첨결과</a></li>
-            <li class="desk-item-green"><a href="#">구매하기</a></li>
+            <li class="item-gray"><a href="#">회차별 당첨결과</a></li>
+            <li class="item-green"><a href="#">구매하기</a></li>
         </ul>
-
     </section>
-    <section class="slide-center"><!--메인 슬라이드 중간 영역-->
 
+    <section class="slide-center"><!--메인 슬라이드 중간 영역-->
+        <header>
+            <h2 class="pension-lotto">연금복권720+</h2>
+            <div class="tip-wrap">
+                <dt class="buy-tip">구매팁!</dt>
+                <dd class="buy-tip-content">
+                    <ul class="auto-slide">
+                        <li class="auto-slide-content">세트 구매란? ~~~~~~~~~</li>
+                    </ul><!--js 활용하면 넘어 가는식 가능 졸작에서 구현 못함 js 배우고 다시 시-->
+                </dd>
+            </div>
+        </header>
+        <a class="conunt" href="#">93회 당첨결과</a>
+        <span class="this-day">(2022-02-10 추첨)</span>
+        <div class="st1-money">
+            <dt>1등</dt>
+            <dd>월<span>700</span>만원 * <span>20</span></dd>
+            <ul class="group">
+                <li class="group-num group-normal"><span>4</span></li>
+                <li class="group-text group-normal"><span>조</span></li>
+                <li class="group-num group-red"><span>1</span></li>
+                <li class="group-num group-orange"><span>8</span></li>
+                <li class="group-num group-yellow"><span>0</span></li>
+                <li class="group-num group-blue"><span>2</span></li>
+                <li class="group-num group-purple"><span>4</span></li>
+                <li class="group-num group-grayd"><span>9</span></li>
+            </ul>
+        </div>
+        <div class="st2-money">
+            <dt>2등</dt>
+            <dd>월100만원 * 10년</dd>
+            <ul class="group">
+                <li></li>
+                <li></li>
+                <li class="group-num group-red"><span>1</span></li>
+                <li class="group-num group-orange"><span>8</span></li>
+                <li class="group-num group-yellow"><span>0</span></li>
+                <li class="group-num group-blue"><span>2</span></li>
+                <li class="group-num group-purple"><span>4</span></li>
+                <li class="group-num group-grayd"><span>9</span></li>
+            </ul>
+        </div>
+        <div class="bonus-money">
+            <dt>1등</dt>
+            <dd>월700만원 * 20년</dd>
+            <ul class="group">
+                <li class="group-text  group-each">각</li>
+                <li class="group-text  group-group">조</li>
+                <li class="group-num group-red"><span>8</span></li>
+                <li class="group-num group-orange"><span>3</span></li>
+                <li class="group-num group-yellow"><span>1</span></li>
+                <li class="group-num group-blue"><span>8</span></li>
+                <li class="group-num group-purple"><span>9</span></li>
+                <li class="group-num group-grayd"><span>4</span></li>
+            </ul>
+        </div>
+        <ul class="lotto-desk">
+            <li class="desk-item-interview item-indigo"><a href=#">당첨자 인터뷰 보기</a></li>
+            <li class="desk-item-result item-gray"><a href="#">회차별 당첨결과</a></li>
+            <li class="desk-item-buy item-green"><a href="#">구매하기</a></li>
+        </ul>
 
 
     </section>

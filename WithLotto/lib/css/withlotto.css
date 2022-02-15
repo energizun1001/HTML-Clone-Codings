@@ -148,17 +148,17 @@ table {
 
 .slide-wrap {
     margin-top: 100px;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 20%;;
     display: flex;
-    width: 100%;
+    width: 80%;
 }
 
 .slide-left {
     height: 400px;
     background: #1d7cbf;
     padding: 28px 40px 0px 40px;
-    width: 312px;
+    width: 17%;
 }
 
 .slide-left header {
@@ -192,14 +192,15 @@ table {
     display: flex;
     color: white;
     justify-content: space-between;
-    padding: 30px 15px;
-    margin-top: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
 }
 
 .number-item {
-    padding: 8px 8px;
+    padding: 7px 7px;
     height: 10px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     border-radius: 40px;
     line-height: 10px;
@@ -226,7 +227,6 @@ table {
 }
 
 .dd-wrap {
-
     margin-right: 10px;
     margin-left: 10px;
     text-align: center;
@@ -278,8 +278,8 @@ table {
 }
 
 .lotto-desk a{
-    padding: 4px 20px;
-    font-size: 15px;
+    padding: 4px 15px;
+    font-size: 13px;
     text-decoration: none;
     color: white;
     border: 1px solid;
@@ -288,13 +288,141 @@ table {
     margin-left: 5px;
 }
 
-.desk-item-gray a {
+.item-gray a {
     background: #666;
     border-color: #666;
 }
 
-.desk-item-green a{
-
+.item-green a{
     background: #0a857e;
     border-color: #0a857e;
+}
+
+.item-indigo a{
+    background: #203e6b;
+    border-color: #203e6b;
+}
+
+.slide-center{
+    height: 400px;
+    background: #144b72;
+    padding: 28px 40px 0px 40px;
+    width: 28%;
+}
+
+.slide-right{
+    height: 400px;
+    background: #1d7cbf;
+    padding: 28px 40px 0px 40px;
+    width: 12%;
+}
+
+.slide-center header{
+    display: flex;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.pension-lotto{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.tip-wrap{
+    margin-left: 20px;
+    height: 25px;
+    display: flex;
+    border: 1px solid #fcd153;
+    border-radius: 25px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+.buy-tip{
+    left: 0;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 4px 8px;
+    line-height: 20px;
+    background: #fcd153;
+}
+
+.auto-slide li{
+    display: flex;
+    padding: 4px  50px 4px 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.auto-slide-content {
+    font-size: 10px;
+    display: flex;
+}
+
+.st1-money{
+    display: flex;
+    color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+.st1-money dt{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.st1-money dd {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.st1-money dd>span {
+    color: deepskyblue;
+}
+
+.st1-money dd>span:nth-child(1){
+    margin-left: 4px;
+}
+
+.st1-money ul{
+    padding-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-right: 25px;
+
+}
+.group-num{
+    border : 1px solid black;
+    padding: 10px 0;
+    margin-left: 8px;
+}
+
+.group-num span{
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: white;
+    font-size: 15px;
+}
+
+.group-text{
+    color: white;
 }
