@@ -51,7 +51,8 @@ table {
     border-spacing: 0;
 }
 
-.header-wrap{
+.header-wrap {
+    background: white;
     display: flex;
     width: 100%;
     border-bottom: 1px solid #dddddd;
@@ -59,26 +60,241 @@ table {
     height: 110px;
 }
 
-.logo{
+.logo {
     display: flex;
     margin-left: 20%;
     float: left;
 }
 
-.sign{
+.sign {
     display: flex;
-    margin-left: 300px;
+    float: right;
+    padding-left: 25%;
     margin-right: 20%;
 }
 
-.sign-item{
+.sign-item {
     display: flex;
     padding-top: 20px;
     justify-content: space-between;
 
 }
 
-.sign-item li{
+.sign-item li {
     display: flex;
-    padding: 12px 20px;
+    height: 30px;
+}
+
+.sign-item a {
+    padding: 4px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.login a {
+    background: #666;
+    border-color: #666;
+}
+
+.sign-up {
+    padding-right: 20px;
+    border-right: 1px solid #999999;
+}
+
+.sign-up a {
+    background: #007bc3;
+    border-color: #007bc3;
+}
+
+.my-page a {
+    margin-left: 20px;
+    background: #0a857e;
+    border-color: #0a857e;
+}
+
+.consumer-page a {
+    margin-left: 5px;
+    background: #0a857e;
+    border-color: #0a857e;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid #007bc3;;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: space-between;
+
+}
+
+.navbar li {
+    font-size: 20px;
+}
+
+.slide-wrap {
+    margin-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    width: 100%;
+}
+
+.slide-left {
+    height: 400px;
+    background: #1d7cbf;
+    padding: 28px 40px 0px 40px;
+    width: 312px;
+}
+
+.slide-left header {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.conunt {
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.this-day {
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.lotto-number {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 30px 15px;
+    margin-top: 5px;
+}
+
+.number-item {
+    padding: 8px 8px;
+    height: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 40px;
+    line-height: 10px;
+}
+
+.blue {
+    border: 1px solid #56abdd;
+    background: #56abdd;
+}
+
+.red {
+    border: 1px solid #c84b4b;
+    background: #c84b4b;
+}
+
+.gray {
+    border: 1px solid #666666;
+    background: #666666;
+}
+
+.green {
+    border: 1px solid #65c861;
+    background: #65c861;
+}
+
+.dd-wrap {
+
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #4792bf;
+}
+
+.dd-wrap dt {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #56abdd;
+    background: #235477;
+}
+
+.dd-wrap dd {
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dd-wrap span{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.lotto-desk{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    height: 30px;
+}
+
+.lotto-desk {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.lotto-desk li {
+    display: flex;
+    height: 30px;
+}
+
+.lotto-desk a{
+    padding: 4px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.desk-item-gray a {
+    background: #666;
+    border-color: #666;
+}
+
+.desk-item-green a{
+
+    background: #0a857e;
+    border-color: #0a857e;
 }
