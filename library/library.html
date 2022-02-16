@@ -64,9 +64,9 @@
             <h1 class="title"><b>모두가 행복한</b> 도서관</h1>
             <p>Incheon Metropolitan City Office of Education Jungang Library</p>
             <form class="search-border">
-            <label for="total-search">통합검색서비스</label>
-            <input type="text"id="total-search" placeholder="검색어를 입력하세요">
-            <button type="submit" id="main-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <label for="total-search">통합검색서비스</label>
+                <input type="text" id="total-search" placeholder="검색어를 입력하세요">
+                <button type="submit" id="main-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
         <div class="search-wrap-right">
@@ -77,38 +77,144 @@
 <nav><!--중앙 내비 구역-->
     <div class="nav-wrap">
         <ul class="nav-menu-link">
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/libarary-search.png" alt="지금"><span>대출조회 및 연기</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-hope.png" alt="이겨내지 못하면"><span>희망도서신청</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-putin.png" alt="앞으로도 이겨내지 못한다"><span>프로그램신청</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-popular.png" alt="말보다"><span>전국도서관인기도서</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-place.png" alt="행동으로"><span>청소년문화공간다누리</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-e.png" alt="끝까지"><span>전자도서관</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-volunteer.png" alt="가면"><span>봉사활동신청</span></a></li>
-            <li class="nav-menu-content"><a href="#" class="nab-link"><img src="lib/img/library-use.png" alt="너가 다 이겨"><span>이용안내</span></a></li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/libarary-search.png"
+                                                                           alt="지금"><span>대출조회 및 연기</span></a></li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-hope.png"
+                                                                           alt="이겨내지 못하면"><span>희망도서신청</span></a></li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-putin.png"
+                                                                           alt="앞으로도 이겨내지 못한다"><span>프로그램신청</span></a>
+            </li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-popular.png"
+                                                                           alt="말보다"><span>전국도서관인기도서</span></a></li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-place.png"
+                                                                           alt="행동으로"><span>청소년문화공간다누리</span></a></li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-e.png" alt="끝까지"><span>전자도서관</span></a>
+            </li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-volunteer.png" alt="가면"><span>봉사활동신청</span></a>
+            </li>
+            <li class="nav-menu-content"><a href="#" class="nav-link"><img src="lib/img/library-use.png"
+                                                                           alt="너가 다 이겨"><span>이용안내</span></a></li>
+
         </ul>
     </div>
 </nav>
-<section><!--중앙(1/2) 좌측 하단 탭 구역-->
+<div class="section">
+    <section><!--중앙(1/2) 좌측 중앙 탭 구역-->
+        <div class="tab-menu wrap-left">
+            <div class="tab-menu-left">
+                <input id="notice" type="radio" name="tab_item" checked>
+                <label for="notice">공지사항</label>
+                <input id="data-guide" type="radio" name="tab_item">
+                <label for="data-guide">자료비치알림</label>
+                <input id="new-data" type="radio" name="tab_item">
+                <label for="new-data">신착자료</label>
+                <input id="community" type="radio" name="tab_item">
+                <label for="community">자유게시판</label>
+                <input id="more" type="radio" name="tab_item">
+                <label for="more"><a href="#">더보기</a></label>
+            </div>
 
-</section>
-<section><!--중앙(1/2) 우측 하단 탭 구역-->
+            <ul class="tab-content notice_content">
+                <li class="tab-notice_content">
+                    <ul class="tab-content-top">
+                        <li><img src="lib/img/mic.png" alt=""></li>
+                        <li><strong>[다누리]2022.3월 휴먼북소통(그림책 팝업북 만들기) 참가자모집</strong></li>
+                        <li><p>2022-02-15</p></li>
+                        <li><span>< 버려지는 그림책에 예술을 입히다! 그림책 팝업묵 만들기...</span></li>
+                    </ul>
+                </li>
+                <li class="tab-notice_content tab-content-down">
+                    <a href="#"><p>[긴급]인천광역시교육청중앙도서관 기간제근로자(주말지원...</p><span>2022-02-10</span></a>
+                    <a href="#"><p>그림책 읽어주는 고양이 다문화 가족 대출 안내</p><span>2022-02-10</span></a>
+                    <a href="#"><p>다문화명예사서단 2기모집</p><span>2022-02-08</span></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section><!--중앙(1/2) 우측 중 탭 구역-->
+        <div class="tab-menu wrap-right">
+            <div class="tab-menu-right">
+                <input id="normal-recommend" type="radio" name="tab_item" checked>
+                <label for="normal-recommend">일반추천도서</label>
+                <input id="child-recommend" type="radio" name="tab_item">
+                <label for="child-recommend">아동추천도서</label>
+                <input id="best-recommend" type="radio" name="tab_item">
+                <label for="best-recommend">도서대출베스트</label>
+                <input id="more-right" type="radio" name="tab_item">
+                <label for="more-right"><a href="#">더보기</a></label>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="article-wrap">
+    <article>
+        <div class="popup-wrap">
+            <div class="popup-title"><span>팝업존</span></div>
+            <div class="popup-content">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4X0HLr7H4HU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </article>
 
-</section>
-<article><!--중앙(2/4) 좌측 팝언존 구역-->
+    <article>
+        <div class="list">
+            <ul class="list-menu">
+                <li class="list-menu-content"><a href="">무료택배대출</a></li>
+                <li class="list-menu-content"><a href="">스마트도서관</a></li>
+                <li class="list-menu-content"><a href="">책바다</a></li>
+                <li class="list-menu-content"><a href="">사서에게 물어보세요</a></li>
+                <li class="list-menu-content"><a href="">오디오</a></li>
+            </ul>
+        </div>
+    </article>
 
-</article>
-<section><!--중앙(1/4) 중앙 링크 구역-->
+    <article>
+        <div class="day">
+            <h2 class="day-title">휴관일 및 행사안내<span><a href="#"><i class="fa-solid fa-plus"></i></a></span></h2>
+            <div class="day-content-left"></div>
 
-</section>
-<article><!--중앙(1/4) 우측 달력 구역-->
+        </div>
+    </article>
+</div>
 
-</article>
-<article><!--중앙 하단 배너 구-->
+<div class="solo">
+    <ul>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">영상정보처리기기운영관리방침</a></li>
+        <li><a href="#">찾아오시는길</a></li>
+    </ul>
 
-</article>
-
+    <span class="site-link">
+        <select title="유관기관사이트">
+            <option value="" title="유관기관사이트">유관기관사이트</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+        </select>
+        </span>
+    <button type="submit">이동</button>
+    <span class="site-link2">
+        <select title="유관기관사이트">
+            <option value="" title="유관기관사이트">유관기관사이트</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+            <option value="" title="인천평생학습관">인천평생학습관</option>
+        </select>
+        </span>
+    <button type="">이동</button>
+</div>
 <footer>
-
+    <p>(우)21554 인천 남동구 정각로 9 (구월동, 인천광역시 교육청) <b>대표전화</b> :032-421-1152 <b>FAX</b> :032-437-4718</p>
+    <p>COPYRIGHT Ⓒ Incheon Metropolitan City Office of Education Jungang Library . ALL RIGHTS RESERVED.</p>
 </footer>
 
 </body>
