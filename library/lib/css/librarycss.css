@@ -246,6 +246,9 @@ nav{
     margin-top: 10px;
 }
 
+hr{
+    font-size: 10px;
+}
 .wrap-left{
     width: auto;
     height: 350px;
