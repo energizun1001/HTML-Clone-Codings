@@ -5,9 +5,12 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/BurgerKing" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pr-HTML" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Galaxy-Store" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="717793cb2b" level="application" />
+    <orderEntry type="library" name="b4ae763975" level="application" />
   </component>
 </module>
