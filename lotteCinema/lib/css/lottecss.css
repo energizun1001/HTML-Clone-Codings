@@ -1,0 +1,630 @@
+header {
+
+    width: 100%;
+    height: 774px;
+    background-image: url("../../lib/img/batman.jpeg");
+    z-index: -3;
+}
+
+.header-wrap {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 194px;
+    background: linear-gradient(to bottom, rgba(29, 29, 31, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-center-wrap {
+    position: relative;
+    width: 980px;
+    height: 71px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.header-link-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    vertical-align: center;
+    padding-bottom: 5px;
+}
+
+.header-link-item {
+    display: flex;
+}
+
+.header-link-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-right: 14px;
+}
+
+.header-link-item a > span {
+    font-size: 12px;
+    padding-top: 2px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.header-link-item a > img {
+    display: flex;
+    vertical-align: middle;
+    padding-right: 3px;
+    width: 12px;
+    height: 12px;
+    opacity: 0.5;
+}
+
+.header-logo {
+    position: absolute;
+    top: 18px;
+    left: 381px;
+}
+
+.header-login-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.header-login-item {
+    display: flex;
+}
+
+.header-login-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #bbbbbb;
+    padding-right: 14px;
+    font-size: 12px;
+    padding-top: 2px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.navbar-wrap {
+    display: flex;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+}
+
+.navbar-menu {
+    display: flex;
+    position: absolute;
+}
+
+.navbar-menu li {
+    display: flex;
+    padding: 2px 20px;
+    height: 8px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+
+.navbar-item a {
+    display: flex;
+    text-decoration: none;
+    color: #eee;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+}
+
+.navbar-menu li:nth-child(-n+4) {
+    border-right: 1px solid #eee;
+}
+
+.navbar-menu-right {
+    position: absolute;
+    display: flex;
+    left: 75%;
+}
+
+.navbar-menu-right-item {
+    display: flex;
+    padding: 2px 20px;
+    height: 8px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+
+.navbar-menu-right-item a {
+    display: flex;
+    text-decoration: none;
+    color: #eee;
+    font-size: 10px;
+    font-weight: 600;
+    height: 40px;
+}
+
+.navbar-menu-right-item img {
+    width: 10px;
+    height: 11px;
+    padding-right: 3px;
+}
+
+.listNewTap button {
+    width: 17px;
+    height: 11px;
+    color: white;
+    border: none;
+    background: url("../../lib/img/nav-side-all.png");
+    cursor: pointer;
+}
+
+.header-down-listBtn {
+    position: absolute;
+    top: 634px;
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1) 100%);
+}
+
+.header-down-listBtn-wrap {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header-down-slideList {
+    display: flex;
+    justify-content: right;
+}
+
+.header-down-slideList li {
+    margin-top: 40px;
+    margin-right: 5px;
+    background: #8c8c8c;
+    border: 1px solid #bbbbbb;
+    padding: 2px;
+    height: 1px;
+    width: 1px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.movie-rank {
+    display: flex;
+    width: 100%;
+    height: 370px;
+    background: black;
+}
+
+.movie-rank-wrap {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.movie-rank-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top p > img {
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    filter: opacity(0.8) drop-shadow(0 0 0 white);
+}
+
+.top {
+    display: flex;
+    justify-content: right;
+    color: #eee;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.top p {
+    display: flex;
+    vertical-align: center;
+}
+
+.movie-wrap {
+    display: block;
+    width: 184px;
+    height: 316px;
+    color: white;
+}
+
+.batM {
+    position: relative;
+    background-image: url("../../lib/img/rank-batman.jpeg");
+    width: 184px;
+    height: 262px;
+    background-size: cover;
+}
+
+.BTS {
+    position: relative;
+    background-image: url("../../lib/img/bts.jpeg");
+    width: 184px;
+    height: 262px;
+    background-size: cover;
+}
+
+.unc {
+    position: relative;
+    background-image: url("../../lib/img/un.jpeg");
+    width: 184px;
+    height: 262px;
+    background-size: cover;
+}
+
+.cy {
+    position: relative;
+    background-image: url("../../lib/img/cyrano.jpeg");
+    width: 184px;
+    height: 262px;
+    background-size: cover;
+}
+
+.co {
+    position: relative;
+    background-image: url("../../lib/img/event.jpeg");
+    width: 184px;
+    height: 262px;
+    background-size: cover;
+}
+
+.spanRed {
+    position: absolute;
+    display: block;
+    border: none;
+    background: #ffda56;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    top: 10px;
+    left: 155px;
+    padding: 5px;
+}
+
+.blue {
+    position: absolute;
+    display: block;
+    border: none;
+    background: deepskyblue;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    top: 10px;
+    left: 155px;
+    padding: 5px;
+}
+
+
+.year b {
+    display: block;
+    left: 0;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 30px;
+    position: absolute;
+    font-weight: bold;
+    top: 230px;
+    justify-content: flex-end;
+}
+
+.movie-info {
+    margin-top: 7px;
+    display: block;
+    text-align: center;
+}
+
+.movie-info strong {
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.movie-info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.red {
+    margin: 0 4px;
+    padding: 0 4px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    color: red;
+}
+
+.yellow {
+    margin: 0 4px;
+    padding: 0 4px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.bat {
+    background-image: url("../../lib/img/rank-batman.jpeg");
+    background-size: cover;
+    width: 184px;
+    height: 263px;
+}
+
+.special {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background: white;
+}
+
+.special-wrap {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top-txt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.top-txt h2 {
+    font-size: 18px;
+}
+
+.top-txt span {
+    display: flex;
+    height: 20px;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+.special-content {
+    border-top: 1px dashed #cbcbcb;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-content-item a > img {
+    height: 30px;
+
+}
+
+.event {
+    display: flex;
+    width: 100%;
+    height: 620px;
+    background: white;
+}
+
+.event-wrap {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.event-content-wrap {
+    display: flex;
+}
+
+.event-content-left img {
+    border-radius: 10px;
+}
+
+.even-content-right img {
+    border-radius: 10px;
+    height: 511px;
+}
+
+.move {
+    padding-left: 5px;
+}
+
+.top-move {
+    padding-top: 5px;
+}
+
+.even-content-right {
+    float: right;
+}
+
+.premiere {
+    width: 100%;
+    height: 250px;
+}
+
+.premiere-wrap {
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.premiere-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.premiere-content img {
+    width: 319px;
+    height: 187px;
+    border-radius: 10px;
+}
+
+.middle-banner {
+    width: 100%;
+    height: 210px;
+
+}
+
+.middle-banner-wrap {
+    width: 980px;
+    height: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-banner-wrap img {
+    width: 187px;
+    height: 133px;
+}
+
+.middle-notice {
+    width: 100%;
+    height: 100px;
+}
+
+.middle-notice-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.notice-left-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.notice-left-wrap h2{
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 13px;
+    border-right: 1px solid black;
+}
+
+.notice-left-wrap p{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.notice-txt {
+    display: flex;
+    align-items: center;
+}
+
+.notice-txt span {
+    display: flex;
+    height: 20px;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+
+.down-banner {
+    width: 100%;
+    height: 250px;
+}
+
+.down-banner-wrap{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    height: 446px;
+    background-color: rgb(0, 92, 185);
+}
+
+.footer-banner{
+    width: 980px;
+    height: 196px;
+    margin: 0 auto;
+}
+
+.footer-banner img{
+    position: absolute;
+    top: 2740px;
+}
+
+.footer-info{
+    width: 100%;
+    display: flex;
+    height: 250px;
+    background: white;
+    padding-top: 80px;
+}
+
+.footer-info-wrap{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.footer-menu{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu li{
+    height: 10px;
+    line-height: 10px;
+}
+
+.footer-menu li:not(:last-child){
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+.footer-menu li a{
+    font-size: 13px;
+    color: black;
+    height: 5px;
+    text-decoration: none;
+}
+
+.footer-info-wrap p{
+    display: flex;
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+.footer-info-wrap p>span {
+    border-left: 1px solid black;
+    margin-left: 4px;
+    padding-left: 4px;
+}
+
+.award-banner-wrap{
+    display: flex;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.footer-award-banner{
+    margin: 50px auto 0;
+    padding: 20px 0;
+width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-award-banner img{
+    height: 42px;
+}

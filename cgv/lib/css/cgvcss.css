@@ -52,7 +52,6 @@ h1 {
 
 nav {
     background: white;
-
 }
 
 .navbar-wrap {
@@ -65,7 +64,6 @@ nav {
 
 .navbar {
     display: flex;
-
 }
 
 .navbar-content {
@@ -92,6 +90,7 @@ nav {
     line-height: 25px;
     padding: 0 10px;
 }
+
 
 .search-wrap input {
     background: none;
@@ -358,7 +357,6 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-
 }
 
 .special-content-wrap img {
@@ -413,7 +411,6 @@ nav {
     padding-top: 60px;
     width: 980px;
     height: 376px;
-
     margin: 0 auto;
 }
 
