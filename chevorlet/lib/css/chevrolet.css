@@ -1,0 +1,148 @@
+.wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-menu {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 81px;
+    min-width: 1100px;
+    z-index: 10000;
+}
+
+.header-menu-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+
+.logo img {
+    margin: auto;
+    width: 86px;
+    height: 40px;
+}
+
+.header-menu-nav {
+    display: flex;
+}
+
+.header-menu-nav li {
+    display: flex;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header-menu-nav-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-menu-login {
+    display: flex;
+}
+
+.header-menu-login-content {
+    border-left: 1px solid white;
+}
+
+.header-menu-login-content a {
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 12px;
+    color: white;
+}
+
+.header-menu-login-content:first-child {
+    border: none;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slider-container {
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    overflow: hidden;
+}
+
+.slider-container.animated {
+    -webkit-transition: left .3s ease-in;
+    transition: left .3s ease-in;
+}
+
+.slide img {
+    width: 1920px;
+    height: 800px;
+}
+
+#prev,
+#next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+    display: inline-block;
+    height: 100px;
+    width: 50px;
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0.7;
+}
+
+#prev {
+    left: 0;
+    background-image: url("../../lib/img/arrow1_prev.png");
+}
+
+#next {
+    right: 0;
+    background-image: url("../../lib/img/arrow1_next.png");
+}
+
+section {
+    height: 500px;
+}
+
+section {
+    display: flex;
+    overflow: hidden;
+    width: 1100px;
+    margin: 0 auto 85px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
